@@ -12,5 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1
+FROM ghcr.io/blinklabs-io/minio@sha256:4682bc04bc46ae19aca740dfcdb7341399669fd7fe23f74271e9d09d36a88ada
 CMD ["server", "/data"]
